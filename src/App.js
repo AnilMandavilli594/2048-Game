@@ -344,7 +344,7 @@ const Block = ({num})=>{
       color:num===2 || num===4 ? "#645B82" : ""
     }}
     >
-      {num!=0 ? num : ""}
+      {num!==0 ? num : ""}
       
     </div>
   );
